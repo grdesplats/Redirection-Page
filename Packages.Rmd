@@ -1,0 +1,19 @@
+---
+title: "Packages"
+author: "Grégory Desplats"
+date: "24/04/2021"
+output: html_document
+---
+
+### List of packages used in the three applications
+
+-   shiny
+-   shinythemes
+-   leaflet
+-   leaflet.extras
+-   rvest
+-   tidyverse
+-   scales
+-   lattice
+
+Get the code on Github :
