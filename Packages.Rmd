@@ -17,3 +17,4 @@ output: html_document
 -   lattice
 
 Get the code on Github :
+azer
