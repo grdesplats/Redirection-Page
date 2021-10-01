@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 0;
   color: #FFFFFB;
   font-family: 'Open Sans',sans-serif;
   text-align: center;
@@ -120,7 +121,7 @@ body {
   margin-left: 1.5rem;
 }
 
-.card a, a:hover {
+.card a, .card a:hover {
   color: #525f7f !important;
   text-decoration: none !important;
 } 
@@ -154,4 +155,12 @@ body {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 10px); }
     100%   { transform: translate(0, -0px); }   
+}
+
+.info {
+  display: inline; 
+}
+
+a {
+    text-decoration: none;
 }
