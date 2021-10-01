@@ -1,9 +1,6 @@
 
 library(shiny)
 library(shinythemes)
-#Bulle color : #d5e2ea
-library(backports)
-setwd("D:/travail/Etude/DUT STID/4eme_semestre/Projet_Final/Redirection")
 
 ui <- navbarPage("",
     
