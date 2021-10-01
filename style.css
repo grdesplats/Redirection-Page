@@ -164,3 +164,45 @@ body {
 a {
     text-decoration: none;
 }
+
+.shape {
+  position:absolute; 
+  bottom: auto;
+  background: rgba(255,255,255,.1);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.shape1{
+    left: -4%;
+}
+
+.shape2{
+  top: 10%;
+  right: 4%;
+}
+.shape3{
+  top: 280px;
+  right: 5.66666%;
+}
+.shape4{
+  top: 320px;
+  right: 7%;
+}
+.shape5{
+  top: 44%;
+  right: auto;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+  background: rgba(255,255,255,.15)!important;
+}
+.shape6{
+  right: 2%;
+  bottom: 70px;
+}
+.shape7{
+  right: 2%;
+  bottom: 1%;
+}
