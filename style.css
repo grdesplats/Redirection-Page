@@ -1,0 +1,157 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body {
+  color: #FFFFFB;
+  font-family: 'Open Sans',sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.one {
+  background: #a9e1d7;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 62% 85%, 0 100%);
+  padding-top: 5vh;
+  padding-bottom: 30vh;
+}
+
+.two {
+  margin-top: -15em;
+  margin-bottom: 5em;
+  position: relative;
+  z-index: 10;
+}
+.display-3 {
+  font-size: 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lead {
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grid {
+    display: grid;
+    width: 57em;
+    height: 30em;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    margin: auto;
+    /* cursor: grab; */
+    /* align-items: start; */
+}
+
+.grid1{
+  width: 60em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-gap: 10rem;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+
+.card {
+  cursor: auto;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 3rem;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-top: -1.5em;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block; 
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.2s;
+}
+
+.card-btn:hover,
+.card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span,
+.card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+.card a, a:hover {
+  color: #525f7f !important;
+  text-decoration: none !important;
+} 
+
+
+.grid-item:hover {
+  transform: translateY(-2%);
+  box-shadow:  0 4rem 8rem rgba(0, 0, 0, .2);
+}
+
+.footer{
+  padding: 3rem 0;
+  background: #f4f5f7;
+  color: #525f7f;
+}
+
+.fab{
+  display: inline-block
+}
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }   
+}
