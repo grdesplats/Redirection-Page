@@ -150,12 +150,13 @@ body {
     margin-left: 30px;
     margin-top: 5px;
 }
- 
+
 @keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 10px); }
     100%   { transform: translate(0, -0px); }   
 }
+
 
 .info {
   display: inline; 
@@ -181,10 +182,12 @@ a {
 .shape2{
   top: 10%;
   right: 4%;
+  animation-delay: 1.5s;
 }
 .shape3{
   top: 280px;
   right: 5.66666%;
+  animation-delay: 0.9s;
 }
 .shape4{
   top: 320px;
@@ -196,13 +199,16 @@ a {
   left: 10%;
   width: 200px;
   height: 200px;
-  background: rgba(255,255,255,.15)!important;
+  background: rgba(255,255,255,0.25)!important;
+  animation-delay: 2s;
 }
 .shape6{
   right: 2%;
   bottom: 70px;
+  animation-delay: 0.4s;
 }
 .shape7{
   right: 2%;
   bottom: 1%;
+  animation-delay: 2.5s;
 }
